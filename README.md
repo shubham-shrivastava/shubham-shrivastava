@@ -34,6 +34,16 @@ I'm a **Senior Full Stack Developer** with **9+ years of experience** building h
 
 ---
 
+### 📊 GitHub Overview
+
+<div align="center">
+
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/shubham-shrivastava?cardType=github&theme=nightowl&preferLogin=false)](https://shubham-shrivastava.github.io)
+
+</div>
+
+---
+
 ### 🎯 Core Competencies
 
 ```typescript
@@ -152,23 +162,6 @@ const shubham = {
 Working as a **Full Stack Developer @ Luzmo** (since 2018), building AI workflows, scalable backend systems, and full-stack features serving thousands of users.
 
 *For detailed work history and achievements, visit my [LinkedIn](https://linkedin.com/in/shubhamshrivastav) or [Portfolio](https://shubham-shrivastava.github.io)*
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shubham-shrivastava&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shubham-shrivastava&theme=tokyonight&hide_border=true)
-
-</div>
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shubham-shrivastava&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
 
 ---
 

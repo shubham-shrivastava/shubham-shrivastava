@@ -18,13 +18,20 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="#featured-projects">Featured Projects</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#achievements-impact">Impact</a> •
+  <a href="#lets-connect">Connect</a>
+</p>
+
 ---
 
 ### 👨‍💻 About Me
 
 I'm a **Senior Full Stack Developer** with **9+ years of experience** building high-traffic production applications and AI-powered features at scale. I specialize in architecting scalable backend systems, integrating AI/LLM capabilities, and shipping end-to-end features that serve millions of users.
 
-- 🚀 Currently working at **Luzmo** (formerly Cumul.io) as a Full Stack Developer
+- 🚀 Currently working at **Luzmo** (formerly CumuLio) as a Full Stack Developer
 - 🤖 Deep expertise in **AI Integration** (OpenAI GPT-4, LangChain, RAG Systems, Vector Databases)
 - 🏗️ Proficient in **Node.js, Python, TypeScript, React, Angular** and modern web architectures
 - 🌍 **Remote-first** professional since 2018, thriving in async-first environments
@@ -38,7 +45,7 @@ I'm a **Senior Full Stack Developer** with **9+ years of experience** building h
 
 <div align="center">
 
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/shubham-shrivastava?cardType=github&theme=nightowl&preferLogin=false)](https://shubham-shrivastava.github.io)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/shubham-shrivastava?cardType=level&theme=nightowl&preferLogin=false)](https://git.io/awesome-stats-card)
 
 </div>
 
@@ -64,11 +71,14 @@ const shubham = {
 
 ---
 
+<a id="tech-stack"></a>
 ### 🛠️ Tech Stack
 
 #### **AI & Machine Learning**
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
+![UI-TARS](https://img.shields.io/badge/UI--TARS-Vision_Model-5B6CFF?style=for-the-badge)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-OpenAI_Compatible-6B21A8?style=for-the-badge)
 ![Vector DBs](https://img.shields.io/badge/Vector_DBs-4285F4?style=for-the-badge)
 ![Embeddings](https://img.shields.io/badge/Embeddings-FF6F00?style=for-the-badge)
 
@@ -97,37 +107,69 @@ const shubham = {
 
 ---
 
+<a id="featured-projects"></a>
 ### 🚀 Featured Projects
 
-#### **[NexDocs](https://nexdocs.in)** - AI-Powered Knowledge Platform
-> Production RAG system transforming how organizations create and manage intelligent documentation
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://nexdocs.in">NexDocs</a></h4>
+      <p><em>AI-powered knowledge platform with production RAG pipelines.</em></p>
+      <ul>
+        <li>Production RAG with <strong>GPT-4 + LangChain + pgvector</strong></li>
+        <li>Parallel generation delivering <strong>~70% faster</strong> output</li>
+        <li>Streaming architecture (SSE + Redis Pub/Sub)</li>
+      </ul>
+      <p><strong>Stack:</strong> <code>Next.js</code> <code>TypeScript</code> <code>NestJS</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Docker</code></p>
+      <p><a href="https://nexdocs.in"><strong>🔗 Live Demo</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://nexdocs.in">
+        <img src="https://shubham-shrivastava.github.io/assets/nexdocs1.png" alt="NexDocs preview" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/shubham-shrivastava/ocularis">Ocularis</a></h4>
+      <p><em>Autonomous browsing agent focused on reliability, recovery, and structured reasoning.</em></p>
+      <ul>
+        <li>Goal planner + postcondition checks + critic loop supervision</li>
+        <li>Stuck detection with <strong>MD5 + SSIM</strong> and auto-recovery strategies</li>
+        <li>Vision model support with <strong>UI-TARS</strong> via <strong>OpenRouter</strong> (OpenAI-compatible APIs)</li>
+      </ul>
+      <p><strong>Stack:</strong> <code>Python</code> <code>FastAPI</code> <code>Playwright</code> <code>PostgreSQL</code> <code>pgvector</code> <code>UI-TARS</code> <code>OpenRouter</code> <code>Docker</code></p>
+      <p><a href="https://github.com/shubham-shrivastava/ocularis"><strong>📦 GitHub</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/shubham-shrivastava/ocularis">
+        <img src="https://shubham-shrivastava.github.io/assets/ocularis1.jpeg" alt="Ocularis preview" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/shubham-shrivastava/timedial">TimeDial</a></h4>
+      <p><em>Native macOS timezone companion built for distributed teams.</em></p>
+      <ul>
+        <li>Compare up to 6 timezones at once (1 local + 5 additional) with real-time sync</li>
+        <li>Interactive analog clocks with drag-to-adjust behavior</li>
+        <li>Published on the App Store with a lightweight menu bar UX</li>
+      </ul>
+      <p><strong>Stack:</strong> <code>SwiftUI</code> <code>AppKit</code> <code>Combine</code> <code>macOS</code></p>
+      <p><a href="https://apps.apple.com/us/app/timedial/id6758935499"><strong> App Store</strong></a> | <a href="https://github.com/shubham-shrivastava/timedial"><strong>📦 GitHub</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://apps.apple.com/us/app/timedial/id6758935499">
+        <img src="https://shubham-shrivastava.github.io/assets/timedial1.png" alt="TimeDial preview" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-**🔥 Highlights:**
-- Built production RAG system using **OpenAI GPT-4, LangChain, and pgvector** for semantic search
-- Engineered intelligent document processing pipeline supporting PDF, DOCX, Markdown with AI-powered content analysis
-- Implemented **70% faster** generation time with parallel article generation (5 concurrent workers)
-- Real-time streaming architecture with SSE and Redis Pub/Sub for live progress updates
-- Fault-tolerant AI infrastructure with circuit breakers, retry logic, and comprehensive error handling
-
-**Tech Stack:** `Next.js 14` `TypeScript` `tRPC` `NestJS` `Python` `FastAPI` `GPT-4` `LangChain` `pgvector` `PostgreSQL` `Docker` `Railway`
-
----
-
-#### **[TimeDial](https://github.com/shubham-shrivastava/timedial)** - macOS Timezone Companion ⏰
-> Lightweight menu bar app for comparing timezones with beautiful, interactive analog clocks
-
-**✨ Features:**
-- 🌍 Compare up to 3 timezones at once with real-time sync
-- 🖱️ Interactive time adjustment - drag clock hands to set time manually
-- 🎨 Beautiful analog design with smooth animations
-- 🔍 Smart timezone search with favorites and common abbreviations
-- 💾 Persistent state with automatic save
-
-**Tech Stack:** `SwiftUI` `AppKit` `Combine` `macOS`
-
-[**📥 Download Latest Release**](https://github.com/shubham-shrivastava/timedial/releases)
-
----
+<details>
+  <summary><strong>More Featured Projects</strong></summary>
+  <br />
 
 #### **[Railway Control Center](https://railway-control-center-frontend.up.railway.app/)** - Service Scheduler
 > Full-stack app to manage Railway containers with scheduled deployments and unified health monitoring
@@ -156,6 +198,7 @@ const shubham = {
 [**🎯 Product Hunt**](https://www.producthunt.com/products/autoresearch-research-expert) | [**📦 GitHub**](https://github.com/shubham-shrivastava/autoresearch)
 
 ---
+</details>
 
 ### 💼 Currently
 
@@ -165,13 +208,14 @@ Working as a **Full Stack Developer @ Luzmo** (since 2018), building AI workflow
 
 ---
 
+<a id="achievements-impact"></a>
 ### 🏆 Achievements & Impact
 
 - 🚀 **Shipped production AI features** serving thousands of users daily with GPT-4 and LangChain
 - ⚡ **40% performance improvement** on AI-powered analytics through optimization and caching
 - 🏗️ **60% faster build times** through architectural improvements in micro-frontend system
 - 📈 **Increased test coverage** from 65% to 92% with comprehensive testing frameworks
-- 🌍 **7+ years remote work** demonstrating strong async collaboration and ownership
+- 🌍 **8+ years remote work** demonstrating strong async collaboration and ownership
 - 🛠️ **Built end-to-end AI SaaS product** as a solopreneur (NexDocs)
 
 ---
@@ -185,12 +229,17 @@ Working as a **Full Stack Developer @ Luzmo** (since 2018), building AI workflow
 
 ### 🌱 Currently Learning
 
+<details>
+<summary><strong>Focus Areas</strong></summary>
+<br />
+
 - Advanced AI Agent architectures and autonomous systems
 - Distributed systems design patterns at scale
 - Modern DevOps practices and platform engineering
 
----
+</details>
 
+<a id="lets-connect"></a>
 ### 💬 Let's Connect!
 
 I'm always open to interesting conversations and collaboration opportunities. Feel free to reach out!
